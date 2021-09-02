@@ -51,7 +51,7 @@ const displayBookData = books => {
                     <p class="card-text"><span class="fw-bold">Author Name:</span> ${book.author_name ? book.author_name : 'unknown'}</p>
                     <p class="card-text"><span class="fw-bold">Publisher:</span> ${book.publisher ? book.publisher : 'unknown'}</p>
                     <p class="card-text"><span class="fw-bold">First Publish Year:</span> ${book.first_publish_year ? book.first_publish_year : 'unknown'}</p>
-                    <p class="card-text"><span class="fw-bold">First Publish Year:</span> ${book.publish_place ? book.publish_place : 'unknown'}</p>
+                   
                 </div>
             </div>
         `;
